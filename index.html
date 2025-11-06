@@ -22,6 +22,27 @@
     <a href="https://www.instructure.com/canvas">Link to Canvas</a>
     <img src="House.jpg" alt="Random Grey 2 Story House.">
     <audio controls src="song.wav"></audio>
+
+    <p id="baloon">🎈</p>
+
+<script>
+  let baloonEl = document.getElementById("baloon")
+  let fontSize = 10
+  function handleKeyDown(event) {
+  if (event.key == "ArrowUp") {
+    baloonEl.style.fontSize = fontSize + "px"
+    fontSize *= 1.1;
+    event.preventDefault();
+  }
+  if (event.key == "ArrowDown") {
+    baloonEl.style.fontSize = fontSize + "px"
+    fontSize /= 1.1;
+    event.preventDefault();
+  }
+}
+  window.addEventListener("keydown", handleKeyDown);
+</script>
+    
 </body>
 
 </html>
