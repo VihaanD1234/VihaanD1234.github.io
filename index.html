@@ -2,47 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Vihaan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Vihaan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
 
 
-    <link rel="stylesheet" href="style.css" </head>
+  <link rel="stylesheet" href="style.css" </head>
 
 <body>
-    <h1>All About Me</h1>
-    <a href="class_links.html">Class Links</a>
-    <a href="Family.html">My Family</a>
-    <a href="Interests.html">My Interests</a>
-    <a href="https://www.instructure.com/canvas">Link to Canvas</a>
-    <img src="House.jpg" alt="Random Grey 2 Story House.">
-    <audio controls src="song.wav"></audio>
+  <h1>All About Me</h1>
+  <a href="class_links.html">Class Links</a>
+  <a href="Family.html">My Family</a>
+  <a href="Interests.html">My Interests</a>
+  <a href="https://www.instructure.com/canvas">Link to Canvas</a>
+  <img src="House.jpg" alt="Random Grey 2 Story House.">
+  <audio controls src="song.wav"></audio>
 
-    <p id="baloon">🎈</p>
+  <p id="baloon">🎈</p>
 
-<script>
-  let baloonEl = document.getElementById("baloon")
-  let fontSize = 10
-  function handleKeyDown(event) {
-  if (event.key == "ArrowUp") {
-    baloonEl.style.fontSize = fontSize + "px"
-    fontSize *= 1.1;
-    event.preventDefault();
-  }
-  if (event.key == "ArrowDown") {
-    baloonEl.style.fontSize = fontSize + "px"
-    fontSize /= 1.1;
-    event.preventDefault();
-  }
-}
-  window.addEventListener("keydown", handleKeyDown);
-</script>
-    
+  <script>
+    let baloonEl = document.getElementById("baloon")
+    let fontSize = 10
+    function handleKeyDown(event) {
+      if (event.key == "ArrowUp") {
+        baloonEl.style.fontSize = fontSize + "px"
+        fontSize *= 1.1;
+        event.preventDefault();
+      }
+      if (event.key == "ArrowDown") {
+        baloonEl.style.fontSize = fontSize + "px"
+        fontSize /= 1.1;
+        event.preventDefault();
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+  </script>
+
 </body>
 
 </html>
