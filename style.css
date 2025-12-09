@@ -1,9 +1,9 @@
 html {
-    --text: #00ffbf;
+    --text: #fdc5f5;
     --background: #000000;
-    --primary: #ffffffff;
-    --secondary: #ffb55b;
-    --accent: #f477c8;
+    --primary: #ff0000;
+    --secondary: #5ddfff;
+    --accent: #000000;
 }
 
 body {
@@ -12,8 +12,7 @@ body {
     font-family: "Inconsolata";
     font-size: 24px;
     font-style: oblique;
-    text-decoration: underline;
-    border: 3px solid rgb(0, 255, 200);
+    border: 3px solid rgb(255, 163, 253);
     padding: 1em;
     width: 700px;
     height: 700px;
@@ -46,9 +45,9 @@ audio {
 }
 
 :link {
-    color: red;
+    color: rgb(0, 247, 255);
 }
 
 :visited {
-    color: coral;
+    color: rgb(0, 255, 242);
 }
