@@ -16,7 +16,7 @@ body {
     border: 3px solid rgb(0, 255, 200);
     padding: 1em;
     width: 700px;
-    height:700px;
+    height: 700px;
     margin-top: 1in;
     margin-right: 0.5in;
     margin-bottom: 1in;
@@ -47,4 +47,12 @@ img {
 
 audio {
     background: var(--secondary);
+}
+
+:link {
+    color: red;
+}
+
+:visited {
+    color: coral;
 }
