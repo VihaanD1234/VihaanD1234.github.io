@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Vihaan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" </head>
+
+<body>
+  <h1>Healthy vs Unhealthy Relationships</h1>
+  <a href="class_links.html">Class Links</a>
+  <a href="Family.html">My Family</a>
+  <a href="Interests.html">My Interests</a>
+  <a href="index2.html">About Me</a>
+  <a href="clicker.html">Clicker Game</a></div>
+  <div><img src="House.jpg" border="5" alt="Random Grey 2 Story House."></div>
+  <div><audio controls src="song.wav"></audio></div>
+
+  <h3>Click the up and down arrow keys to inflate or deflate the Baloon</h>
+  <p id="baloon">🎈</p>
+
+  <script>
+    let baloonEl = document.getElementById("baloon")
+    let fontSize = 10
+    function handleKeyDown(event) {
+      if (event.key == "ArrowUp") {
+        baloonEl.style.fontSize = fontSize + "px"
+        fontSize *= 1.1;
+        event.preventDefault();
+      }
+      if (event.key == "ArrowDown") {
+        baloonEl.style.fontSize = fontSize + "px"
+        fontSize /= 1.1;
+        event.preventDefault();
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+  </script>
+
+</body>
+
+</html>
